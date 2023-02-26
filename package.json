@@ -1,0 +1,25 @@
+{
+  "name": "algo8",
+  "version": "1.0.0",
+  "description": "this is assigment to create user and curd operation on the product flipkart",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ashishtripathi29/algo.git"
+  },
+  "author": "\"Ashish Tripathi\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ashishtripathi29/algo/issues"
+  },
+  "homepage": "https://github.com/Ashishtripathi29/algo#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.10.0"
+  },
+  "devDependencies": {}
+}
