@@ -12,18 +12,15 @@ try {
     jwt.verify(token, 'ashishTripathi', (reject, result) => {
         if (reject) return res.status(400).send({ status: "failed", message: reject.message })
         if (result) {
-            req.name=result.name
+            req.name=result.name    
             req.Designation=result.Designation
             next()
         }
     }
     )
-    
 } catch (err) {
-    res.status(500).send({status:"failed",message:err.message})
-    
+    res.status(500).send({status:"failed",message:err.message}) 
 }
-
 }
 
 
